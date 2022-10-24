@@ -5,7 +5,6 @@
   "author": {
     "name": "Konstantin Shutkin"
   },
-  "type": "module",
   "bin": "./dist/index.js",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
