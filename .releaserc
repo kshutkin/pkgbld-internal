@@ -7,9 +7,6 @@
     {"name": "beta", "prerelease": true}, 
     {"name": "alpha", "prerelease": true}
   ],
-  "extends": [
-    "semantic-release-monorepo"
-  ],
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
@@ -48,12 +45,6 @@
             "scope"
           ]
         }
-      }
-    ],
-    [
-      "update-monorepo-package-json",
-      {
-        "prefix": "^"
       }
     ],
     "@semantic-release/npm",
