@@ -5,7 +5,7 @@ import preprocess from 'rollup-plugin-preprocess';
 import clean from '@rollup-extras/plugin-clean';
 import binify from '@rollup-extras/plugin-binify';
 import externals from '@rollup-extras/plugin-externals';
-import replace from 'rollup-plugin-replace';
+import replace from '@rollup/plugin-replace';
 import path from 'path';
 import kleur from 'kleur';
 
@@ -51,7 +51,8 @@ export default {
         format: 'cjs',
         dir: dest,
         entryFileNames: '[name].js',
-        chunkFileNames: '[name].js'
+        chunkFileNames: '[name].js',
+        interop: 'compat'
     },
 
     plugins: [preprocess.default({ include: [ 'src/index.ts' ], context: { esm: false } }), ...plugins]
