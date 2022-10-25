@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.3](https://github.com/kshutkin/pkgbld-internal/compare/v1.0.2...v1.0.3) (2022-10-25)
+
+
+### Bug Fixes
+
+* use fixed plugin @rollup-extras/plugin-externals ([5a4e44c](https://github.com/kshutkin/pkgbld-internal/commit/5a4e44c3600fd3e37b89a96e41d6a8bcaeae59b1))
+
 ## [1.0.2](https://github.com/kshutkin/pkgbld-internal/compare/v1.0.1...v1.0.2) (2022-10-24)
 
 
