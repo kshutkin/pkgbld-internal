@@ -2,7 +2,7 @@
 
 Rollup based build tool for building libraries based on package.json config and simple CLI options.
 
-**Special version of package-build to install it in [`my`](https://github.com/kshutkin?tab=repositories) workspace-enabled repositories to build in-house packages**
+**Special version of package-build to install it in [my](https://github.com/kshutkin?tab=repositories) workspace-enabled repositories to build in-house packages**
 
 It is simple building tool that supports building to different targets like: `es`, `cjs`, `umd` without additional trasformation other than minification using `terser` or preprocess using `rollup-plugin-preprocess`.
 
