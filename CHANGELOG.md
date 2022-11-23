@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.6](https://github.com/kshutkin/pkgbld-internal/compare/v1.0.5...v1.0.6) (2022-11-23)
+
+
+### Bug Fixes
+
+* 🐛 bump pgkbld one more time ([b6db6c3](https://github.com/kshutkin/pkgbld-internal/commit/b6db6c32c87c1ef8b941cefde7baa769996a9499))
+
 ## [1.0.5](https://github.com/kshutkin/pkgbld-internal/compare/v1.0.4...v1.0.5) (2022-11-23)
 
 
