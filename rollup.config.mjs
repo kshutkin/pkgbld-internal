@@ -13,6 +13,8 @@ const input = 'src/index.ts';
 
 const dest = 'dist';
 
+const reported = new Set();
+
 const plugins = [
     clean(),
     replace({
@@ -30,7 +32,10 @@ const plugins = [
                 const relative = path.relative('.', id);
                 for (const internal of internals) {
                     if (relative.startsWith(`node_modules/${internal}/`) && relative.indexOf('node_modules', 13) === -1) {
-                        console.log('inlining', kleur.cyan(relative));
+                        if (!reported.has(relative)) {
+                            console.log('inlining', kleur.cyan(relative));
+                            reported.add(relative);
+                        }
                         return false;
                     }
                 }
