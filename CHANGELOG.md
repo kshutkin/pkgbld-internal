@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.8](https://github.com/kshutkin/pkgbld-internal/compare/v1.0.7...v1.0.8) (2022-12-20)
+
+
+### Bug Fixes
+
+* include [@slimlib](https://github.com/slimlib) into package ([fe70b27](https://github.com/kshutkin/pkgbld-internal/commit/fe70b274b5ce2431256ae82b190c0247c81c5e3c))
+
 ## [1.0.7](https://github.com/kshutkin/pkgbld-internal/compare/v1.0.6...v1.0.7) (2022-12-20)
 
 
