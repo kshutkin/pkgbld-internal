@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.7](https://github.com/kshutkin/pkgbld-internal/compare/v1.0.6...v1.0.7) (2022-12-20)
+
+
+### Bug Fixes
+
+* added draftlog dependency ([f2d56e0](https://github.com/kshutkin/pkgbld-internal/commit/f2d56e01bddfa295398b5483c3479b1476d63bf0))
+
 ## [1.0.6](https://github.com/kshutkin/pkgbld-internal/compare/v1.0.5...v1.0.6) (2022-11-23)
 
 
