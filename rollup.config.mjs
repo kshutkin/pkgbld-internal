@@ -21,7 +21,7 @@ const plugins = [
     }),
     externals({
         external: (id, external) => {
-            const internals = ['pkgbld', '@rollup-extras', '@niceties'];
+            const internals = ['pkgbld', '@rollup-extras', '@niceties', '@slimlib'];
             if (internals.includes(id)) {
                 console.log('inlining', kleur.cyan(id));
                 return false;
